@@ -243,10 +243,10 @@ httq-keygen --algorithm HTTQ-LATTICE-2048 --output server
 
 ## Support
 
-- **Documentation**: https://httq.org/docs
-- **GitHub Issues**: https://github.com/httq-protocol/httq/issues
-- **Discord**: https://discord.gg/httq
-- **Email**: support@httq.org
+- **Documentation**: https://github.com/fridayowl/httq-protocol/blob/main/docs/INDEX.md
+- **GitHub Repository**: https://github.com/fridayowl/httq-protocol
+- **GitHub Issues**: https://github.com/fridayowl/httq-protocol/issues
+- **Live Demo**: https://fridayowl.github.io/httq-protocol/
 
 ---
 
