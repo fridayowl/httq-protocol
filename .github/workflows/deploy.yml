@@ -35,6 +35,12 @@ jobs:
           mkdir -p dist
           cp -r src/demo/public/* dist/
           cp README.md dist/
+          cp -r docs dist/
+          cp QUICKSTART.md dist/
+          cp CONTRIBUTING.md dist/
+          cp SECURITY.md dist/
+          cp CHANGELOG.md dist/
+          cp LICENSE dist/
           
       - name: Setup Pages
         uses: actions/configure-pages@v4

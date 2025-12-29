@@ -561,6 +561,22 @@ body {
   color: var(--gray-600);
 }
 
+.doc-link {
+  display: block;
+  margin-top: 0.75rem;
+  color: var(--black);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: all 0.2s;
+  border-bottom: 2px solid transparent;
+}
+
+.doc-link:hover {
+  border-bottom-color: var(--black);
+  padding-left: 0.5rem;
+}
+
 /* Performance Section */
 .performance-section {
   padding: var(--spacing-2xl) 0;
