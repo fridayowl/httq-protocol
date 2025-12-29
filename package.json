@@ -1,0 +1,46 @@
+{
+  "name": "httq-protocol",
+  "version": "1.0.0",
+  "description": "HyperText Transfer Quantum - Post-quantum cryptographic protocol for secure web communications",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server/demo-server.js",
+    "dev": "nodemon src/server/demo-server.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "benchmark": "node benchmarks/performance.js",
+    "demo": "node src/demo/interactive-demo.js",
+    "web-demo": "node src/server/demo-server.js"
+  },
+  "keywords": [
+    "quantum",
+    "post-quantum",
+    "cryptography",
+    "security",
+    "https",
+    "httq",
+    "lattice",
+    "kyber",
+    "dilithium",
+    "quantum-safe",
+    "quantum-resistant",
+    "nist-pqc"
+  ],
+  "author": "HTTQ Protocol Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/httq-protocol/httq"
+  },
+  "bugs": {
+    "url": "https://github.com/httq-protocol/httq/issues"
+  },
+  "homepage": "https://httq.org"
+}

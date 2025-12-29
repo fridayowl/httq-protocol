@@ -1,0 +1,22 @@
+[package]
+name = "httq"
+version = "1.0.0"
+edition = "2021"
+authors = ["HTTQ Protocol Team"]
+description = "Quantum-safe HTTP client for Rust"
+license = "MIT"
+repository = "https://github.com/httq-protocol/httq"
+keywords = ["quantum", "cryptography", "post-quantum", "security", "httq"]
+categories = ["cryptography", "network-programming"]
+
+[dependencies]
+sha2 = "0.10"
+rand = "0.8"
+tokio = { version = "1", features = ["full"], optional = true }
+
+[dev-dependencies]
+tokio = { version = "1", features = ["full", "test-util"] }
+
+[features]
+default = ["async"]
+async = ["tokio"]
